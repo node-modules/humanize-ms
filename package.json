@@ -1,0 +1,32 @@
+{
+  "name": "humanize-ms",
+  "version": "1.0.0",
+  "description": "transform humanize time to ms",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "humanize",
+    "ms"
+  ],
+  "author": {
+    "name": "dead-horse",
+    "email": "dead_horse@qq.com",
+    "url": "http://deadhorse.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-modules/humanize-ms"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ms": "~0.6.2"
+  },
+  "devDependencies": {
+    "autod": "~0.3.2",
+    "istanbul": "~0.3.0",
+    "mocha": "~1.21.4",
+    "should": "~4.0.4"
+  }
+}
