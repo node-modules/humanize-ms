@@ -24,4 +24,10 @@ describe('humanize-ms', function () {
       ms('1s').should.equal(1000);
     });
   });
+
+  describe('when invalid string', function () {
+    it('should return undefined and warn', function () {
+      (ms('s') === undefined).should.be.ok;
+    });
+  });
 });

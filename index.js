@@ -14,5 +14,7 @@ var ms = require('ms');
 
 module.exports = function (t) {
   if (typeof t === 'number') return t;
-  return ms(t);
+  var r = ms(t);
+  if (r === undefined) console.warn('ms(%s) got undefined in %s', t, __filename);
+  return r;
 };
