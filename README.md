@@ -28,7 +28,7 @@ $ npm install humanize-ms
 
 ## Examples
 
-```
+```js
 var ms = require('humanize-ms');
 
 ms('1s') // 1000

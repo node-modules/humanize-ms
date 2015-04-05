@@ -22,6 +22,8 @@ describe('humanize-ms', function () {
   describe('when string', function () {
     it('should transform to number', function () {
       ms('1s').should.equal(1000);
+      ms('1m').should.equal(60000);
+      ms('1').should.equal(1);
     });
   });
 
