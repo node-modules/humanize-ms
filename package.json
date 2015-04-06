@@ -26,6 +26,8 @@
   },
   "devDependencies": {
     "autod": "*",
+    "beautify-benchmark": "~0.2.4",
+    "benchmark": "~1.0.0",
     "istanbul": "*",
     "mocha": "*",
     "should": "*"
