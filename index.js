@@ -10,11 +10,15 @@
  * Module dependencies.
  */
 
+var util = require('util');
 var ms = require('ms');
 
 module.exports = function (t) {
   if (typeof t === 'number') return t;
   var r = ms(t);
-  if (r === undefined) console.warn('ms(%j) got undefined in %s', t, __filename);
+  if (r === undefined) {
+    var err = new Error(util.format('humanize-ms(%j) result undefined', t));
+    console.warn(err.stack);
+  }
   return r;
 };
