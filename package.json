@@ -1,6 +1,6 @@
 {
   "name": "humanize-ms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "transform humanize time to ms",
   "main": "index.js",
   "files": ["index.js"],
