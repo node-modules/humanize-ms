@@ -1,35 +1,32 @@
-humanize-ms
----------------
+# humanize-ms
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
-[![David deps][david-image]][david-url]
+[![Node.js CI](https://github.com/node-modules/humanize-ms/actions/workflows/nodejs.yml/badge.svg)](https://github.com/node-modules/humanize-ms/actions/workflows/nodejs.yml)
+[![Test coverage][codecov-image]][codecov-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/humanize-ms.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/humanize-ms.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/humanize-ms
-[travis-image]: https://img.shields.io/travis/node-modules/humanize-ms.svg?style=flat
-[travis-url]: https://travis-ci.org/node-modules/humanize-ms
-[coveralls-image]: https://img.shields.io/coveralls/node-modules/humanize-ms.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/node-modules/humanize-ms?branch=master
-[gittip-image]: https://img.shields.io/gittip/dead-horse.svg?style=flat
-[gittip-url]: https://www.gittip.com/dead-horse/
-[david-image]: https://img.shields.io/david/node-modules/humanize-ms.svg?style=flat
-[david-url]: https://david-dm.org/node-modules/humanize-ms
+[codecov-image]: https://codecov.io/gh/node-modules/humanize-ms/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/node-modules/humanize-ms
+[snyk-image]: https://snyk.io/test/npm/humanize-ms/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/humanize-ms
+[download-image]: https://img.shields.io/npm/dm/humanize-ms.svg?style=flat-square
+[download-url]: https://npmjs.org/package/humanize-ms
 
 transform humanize time to ms
 
 ## Installation
 
 ```bash
-$ npm install humanize-ms
+npm install humanize-ms
 ```
 
 ## Examples
 
-```js
-var ms = require('humanize-ms');
+```typescript
+import { ms } from 'humanize-ms';
 
 ms('1s') // 1000
 ms(1000) // 1000
@@ -37,4 +34,10 @@ ms(1000) // 1000
 
 ### License
 
-MIT
+[MIT](LICENSE)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=node-modules/humanize-ms)](https://github.com/node-modules/humanize-ms/graphs/contributors)
+
+Made with [contributors-img](https://contrib.rocks).

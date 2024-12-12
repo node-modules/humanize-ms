@@ -14,3 +14,7 @@ node_modules
 
 dump.rdb
 .DS_Store
+package-lock.json
+.tshy*
+.eslintcache
+dist
